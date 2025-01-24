@@ -29,12 +29,6 @@ public class orderAgnosticBs {
         int l=size-1;
         
         boolean isAsc=arr[s]<=arr[l];
-       
-        // if(arr[s]<=arr[l])
-        // isAsc=true;
-        // else
-        // isAsc=false;
-        System.out.println(isAsc);
         while(s<=l)
         {
             int mid= s+(l-s)/2;
